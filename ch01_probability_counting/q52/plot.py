@@ -19,6 +19,6 @@ x = tuple(x for x in range(1, STUDENTS+1))
 fig = scatter(x=x, y=y)
 fig.show()
 
-# the value approaches a constan because the number of
+# the value approaches a constant because the number of
 # derangements is approximately equal to n!/e
 # so prob of getting a derangement = (n!/e)/n! = 1/e
